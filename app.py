@@ -1,6 +1,6 @@
 from logging import error
 import requests
-from flask import Flask, jsonify, request
+from flask import Flask, request
 from flask_caching import Cache  # Import Cache from flask_caching module
 import datetime
 import calendar
